@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ControlFlowExercises {
     public static void main(String[] args) {
         // 1. While loop
@@ -91,7 +93,7 @@ public class ControlFlowExercises {
         while (true) {
             System.out.println("Welcome to the Letter Grade\nPlease enter a numeric grade:");
             int userGrade = scanner.nextInt();
-            System.out.print("That's a(n) ";
+            System.out.print("That's a(n) ");
             if (userGrade >= 88) {
                 System.out.println("A!");
             }
