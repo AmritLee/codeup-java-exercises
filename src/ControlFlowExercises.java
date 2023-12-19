@@ -29,7 +29,7 @@ public class ControlFlowExercises {
         long k = 2;
         do {
             System.out.println(k);
-            k *= k; // Fixed: Added semicolon
+            k *= k;
         } while (k < 1000000);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~");
 
